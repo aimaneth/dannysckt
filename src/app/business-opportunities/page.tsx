@@ -140,7 +140,7 @@ export default function BusinessOpportunitiesPage() {
             {t('business.why.title')}
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground">
-            Join a proven business model with comprehensive support and training
+            {t('business.why.subtitle')}
           </p>
         </div>
         <motion.div 

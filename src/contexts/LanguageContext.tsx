@@ -45,6 +45,7 @@ export type TranslationKeys =
   | 'business.hero.title' | 'business.hero.subtitle'
   | 'business.hero.consultation' | 'business.hero.download'
   | 'business.why.title'
+  | 'business.why.subtitle'
   | 'business.why.model.title' | 'business.why.model.description'
   | 'business.why.training.title' | 'business.why.training.description'
   | 'business.why.ingredients.title' | 'business.why.ingredients.description'
@@ -359,6 +360,7 @@ export const translations: Record<Language, Record<TranslationKeys, TranslationV
     'business.hero.download': 'Download Info Pack',
 
     'business.why.title': 'Why Partner With Danny\'s CKT?',
+    'business.why.subtitle': 'Start your journey with a proven business model, backed by comprehensive support and training',
     'business.why.model.title': 'Proven Business Model',
     'business.why.model.description': 'Our successful outlets across Malaysia demonstrate the strength of our business model.',
     'business.why.training.title': 'Comprehensive Training',
@@ -735,6 +737,7 @@ export const translations: Record<Language, Record<TranslationKeys, TranslationV
     'business.hero.download': 'Muat Turun Info',
 
     'business.why.title': 'Mengapa Bekerjasama Dengan Danny\'s CKT?',
+    'business.why.subtitle': 'Mulakan perjalanan anda dengan model perniagaan yang terbukti, disokong oleh latihan dan sokongan komprehensif',
     'business.why.model.title': 'Model Perniagaan Terbukti',
     'business.why.model.description': 'Cawangan kami yang berjaya di seluruh Malaysia membuktikan kekuatan model perniagaan kami.',
     'business.why.training.title': 'Latihan Komprehensif',
@@ -1111,6 +1114,7 @@ export const translations: Record<Language, Record<TranslationKeys, TranslationV
     'business.hero.download': '下载信息包',
 
     'business.why.title': '为什么与Danny\'s CKT合作？',
+    'business.why.subtitle': '以经过验证的业务模型开始您的旅程，获得全面的支持和培训',
     'business.why.model.title': '经过验证的业务模型',
     'business.why.model.description': '我们在马来西亚的成功分支机构证明了我们的业务模型。',
     'business.why.training.title': '全面培训',
